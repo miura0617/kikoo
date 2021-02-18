@@ -14,4 +14,4 @@ class Post(models.Model):
 
     # 投稿一覧に表示される表示名をcontentに設定
     def __str__(self):
-        return self.content
+        return self.content[:30]       # 投稿内容の先頭30文字を表示
