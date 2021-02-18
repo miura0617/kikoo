@@ -5,5 +5,6 @@ app_name = 'tweet'
 
 urlpatterns = [
     path('', views.PostLisView.as_view(), name='index'),
+    path('post/new', views.PostCreateView.as_view(), name='post-create'),
 ]
 
