@@ -1,0 +1,7 @@
+# vscode folder
+.vscode/
+# virtual env folder
+venv/
+# take measures
+config/local_settings.py
+config/get_random_secret_key.py
